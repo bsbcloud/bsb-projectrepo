@@ -9,6 +9,17 @@ int remainder = number % 10;
 reverse = reverse * 10 + remainder;  
 number = number/10;  
 }  
+
+System.out.println("The reverse of the given number is: " + reverse);  
+{ 
+	//feature102 changes by dev2
+	class GFG {
+    public static void main (String[] args) {
+      
+        // creating an instance of Addition class 
+        Addition add = new Addition();
+} 
+
 System.out.println("The reverse of the given number is: " + reverse);
 
 } 
@@ -19,4 +30,5 @@ System.out.println("The reverse of the given number is: " + reverse);
     // return statement
     return num * num;
   }
+
 }  
