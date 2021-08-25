@@ -10,5 +10,12 @@ reverse = reverse * 10 + remainder;
 number = number/10;  
 }  
 System.out.println("The reverse of the given number is: " + reverse);  
-}  
+{ 
+	//feature102 changes by dev2
+	class GFG {
+    public static void main (String[] args) {
+      
+        // creating an instance of Addition class 
+        Addition add = new Addition();
+} 
 }  
